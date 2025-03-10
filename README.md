@@ -1,5 +1,7 @@
 # Alert System UI
 
+![Alert System Screenshot](src/assets/screenshot.png)
+
 A React-based alert system UI built with Mantine components. This project demonstrates a clean implementation of an alert acknowledgment system without backend dependencies.
 
 ## Features
