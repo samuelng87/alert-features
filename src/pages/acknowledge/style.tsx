@@ -1,6 +1,7 @@
-import { createStyles } from "@mantine/core";
+import { CSSProperties } from 'react';
 
-const useStyles = createStyles((theme) => ({
+// Define styles with proper CSS properties for TypeScript compatibility
+export const classes: Record<string, CSSProperties> = {
   AcknowledgeBackground: {
     display: "flex",
     flexDirection: "column",
@@ -30,14 +31,12 @@ const useStyles = createStyles((theme) => ({
     backgroundColor: "white",
     margin: "40px 20px 32px 20px",
   },
-
   AcknowledgeContentsLogo: {
     marginBottom: "10px",
   },
-
   AcknowledgeContentsDetails: {
     padding: "0 20px",
-    textAlign: "center",
+    textAlign: "center" as const,
   },
   AcknowledgeDetails: {
     display: "flex",
@@ -58,12 +57,14 @@ const useStyles = createStyles((theme) => ({
     color: "#5C5F66",
     lineHeight: "20px",
   },
-
   ContentCard: {
     width: "100%",
     padding: "0 15px",
-    textAlign: "center",
+    textAlign: "center" as const,
   },
-}));
+};
+
+// This is just for backward compatibility
+const useStyles = () => ({ classes });
 
 export default useStyles;

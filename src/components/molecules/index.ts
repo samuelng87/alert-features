@@ -1,1 +1,2 @@
-export { default as AlertAcknowledgeModal } from "./AlertAcknowledgeModal";
+// Export molecules components when they are available
+export {}; 

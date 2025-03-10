@@ -1,5 +1,4 @@
 // mantine
-import { Button } from "@mantine/core";
 import { useLocation } from "wouter";
 import { classes } from "./style";
 

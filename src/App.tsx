@@ -1,4 +1,3 @@
-import React from 'react';
 import AcknowledgePage from './pages/acknowledge';
 
 function App() {

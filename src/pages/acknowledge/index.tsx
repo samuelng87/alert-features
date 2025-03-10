@@ -1,4 +1,3 @@
-import React from 'react';
 import AcknowledgeModulePage from "../../components/organisms/acknowledgeModule";
 
 const AcknowledgePage = () => {
