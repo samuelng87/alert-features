@@ -1,0 +1,1 @@
+export {default as AcknowledgeModulePage} from "./acknowledgeModule"
